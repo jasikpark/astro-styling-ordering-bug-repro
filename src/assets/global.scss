@@ -1,7 +1,2 @@
-body {
-  background-color: tomato;
-}
-
-.h1 {
-  color: blue;
-}
+@use "./theme.scss";
+@use "./typography.scss";
