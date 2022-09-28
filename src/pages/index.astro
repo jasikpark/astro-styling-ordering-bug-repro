@@ -1,19 +1,8 @@
 ---
-import MainHead from "../components/MainHead.astro";
+import MainLayout from "../layouts/MainLayout.astro";
 import Section from "../components/Section.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-    <MainHead />
-  </head>
-  <body>
-    <h1 class="h1">Astro</h1>
-    <Section />
-  </body>
-</html>
+<MainLayout>
+  <Section />
+</MainLayout>
